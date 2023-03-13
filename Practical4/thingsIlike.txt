@@ -1,18 +1,2 @@
-x1
-
-3
-
-5
-6
-8
-9
-11
-very like 5
-
-7
-8
-9
-11
-12
-13
-14
+I like 1
+I like apple
