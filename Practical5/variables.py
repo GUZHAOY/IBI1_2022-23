@@ -1,15 +1,31 @@
-a=-3.19
-b=-118.24
-c=116.39
-d=abs(b-a)
-print(d)
-e=c-a
-print(e)
-#Rob travel further to Haining
+# Store longitudes of Edinburgh, Los Angeles, and Haining in variables
+a = -3.19
+b = -118.24
+c = 116.39
+
+# Calculate longitude distance travelled to Los Angeles
+d = abs(a - b)
+
+# Calculate longitude distance travelled to Haining
+e = abs(a - c)
+
+# Compare d and e to determine which distance is greater
+if d > e:
+    print("Rob travelled further to Los Angeles.")
+else:
+    print("Rob travelled further to Haining.")
+#The answer is "Rob travelled further to Haining."
+# Create Boolean variables X and Y
 X = True
 Y = False
-W=X and Y   # W的值为False，因为X为True，Y为False，它们都需要为True才返回True
-Z = X or Y    # Z的值为True，因为X为True，Y为False，只要有一个为True就返回True
-print(W)
-print(Z)
-#This is the first time that I use booleans to caculate something.
+
+# Create Boolean variables W and Z
+W = X and Y
+Z = X or Y
+
+# Print the values of W and Z
+print("The value of W is:", W)
+print("The value of Z is:", Z)
+#The answer is 
+#The value of W is: False
+#The value of Z is: True
