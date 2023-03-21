@@ -1,5 +1,5 @@
 # What does this piece of code do?
-# Answer:
+# Answer:This piece of code generates a random integer between 1 and 100, and stores the largest random integer generated over a loop of 10 iterations. The loop increments a progress counter on each iteration and compares the newly generated random number to the previous stored number. If the new number is larger, it becomes the new stored number. After 10 iterations, the largest generated number is printed.
 
 # Import libraries
 # randint allows drawing a random number,
