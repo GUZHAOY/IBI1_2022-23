@@ -1,0 +1,18 @@
+import matplotlib.pyplot as plt
+
+# Create a list of costs
+costs = [1, 8, 15, 7, 5, 14, 43, 40]
+
+# Sort the costs in ascending order
+sorted_costs = sorted(costs)
+
+# Print the sorted list of costs
+print(sorted_costs)
+
+# Create a bar plot of the sorted costs
+plt.bar(range(len(sorted_costs)), sorted_costs)
+plt.xticks(range(len(sorted_costs)), ['LA 1984', 'Seoul 1988', 'Barcelona 1992', 'Atlanta 1996', 'Sydney 2000', 'Athens 2004', 'Beijing 2008', 'London 2012'], rotation=45)
+plt.xlabel('Summer Olympic Games')
+plt.ylabel('Cost (in billions USD)')
+plt.title('Cost of Hosting Summer Olympic Games')
+plt.show()
