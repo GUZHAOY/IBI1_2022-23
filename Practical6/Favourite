@@ -18,9 +18,3 @@ print(f"The number of university students who prefer {input_genre} is {movie_dic
 
 # return dictionary and pie chart
 return_dict = movie_dict  # for simplicity, just returning the same dictionary
-pip install matplotlib
-pip install matplotlib
-import matplotlib.pyplot as plt
-plt.plot([1, 2, 3, 4])
-plt.ylabel('some numbers')
-plt.show()
