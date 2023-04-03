@@ -14,7 +14,7 @@ plt.show()
 
 # print number of students for input genre
 input_genre = 'Comedy'  # replace with desired input genre
-print(f"The number of university students who prefer {input_genre} is {movie_dict[input_genre]}.")
+print("The number of university students who prefer %s is %d." % (input_genre, movie_dict[input_genre]))
 
 # return dictionary and pie chart
 return_dict = movie_dict  # for simplicity, just returning the same dictionary
