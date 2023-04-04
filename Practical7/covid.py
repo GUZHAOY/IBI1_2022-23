@@ -57,3 +57,20 @@ plt.ylabel("Number of cases/deaths")
 plt.legend()
 plt.xticks(world_data.index[0:len(world_data.index):4], rotation=-90)
 plt.show()
+
+#Plot a boxplot of total case numbers in different countries on 31 March 2020
+import pandas as pd
+covid_data = pd.read_csv("full_data.csv")
+import matplotlib.pyplot as plt
+
+# Select the rows where the date is '2020-03-31' and the column 'location' and 'total_cases'
+total_cases_data = covid_data.loc[covid_data['date'] == '2020-03-31', ['location', 'total_cases']]
+
+# Create a boxplot of total case numbers in different countries on 31 March 2020 using matplotlib
+fig, ax = plt.subplots()
+total_cases_data.boxplot(column='total_cases', by='location', ax=ax)
+plt.xticks(rotation=-90)
+plt.title("Total case numbers in different countries on 31 March 2020")
+plt.ylabel("Number of cases")
+plt.show()
+

@@ -1,0 +1,3 @@
+Plot a boxplot of total case numbers in different countries on 31 March 2020.
+The question is addressed in 63 line.
+As can be seen from the boxplot, the cumulative number of confirmed cases by that date varies widely between countries, with some countries having very high numbers of cases and others having low numbers. This may be due to differences in epidemic prevention and control measures, medical resources, population density and public health levels in different countries. On the whole, the result is in line with expectations.
