@@ -1,0 +1,8 @@
+def can_buy_house(value, salary):
+    max_value = salary * 5
+    if value <= max_value:
+        return 'Yes'
+    else:
+        return 'No'
+result = can_buy_house(150000, 30000)
+print(result)

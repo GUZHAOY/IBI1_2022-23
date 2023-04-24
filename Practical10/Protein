@@ -1,0 +1,38 @@
+def protein_coding(sequence):
+    sequence = sequence.upper()
+    start_codon = 'ATG'
+    stop_codon = 'TGA'
+    start_index = sequence.find(start_codon)
+    stop_index = sequence.rfind(stop_codon)
+
+    if start_index == -1 or stop_index == -1 or stop_index < start_index:
+        return 0, 'non-coding'
+
+    total_length = len(sequence)
+    coding_length = 0
+    for i in range(start_index, stop_index+3, 3):
+        if sequence[i:i+3] == stop_codon:
+            coding_length += 3
+            break
+        coding_length += 3
+
+    coding_percentage = coding_length / total_length
+    if coding_percentage > 0.5:
+        return coding_percentage, 'protein-coding'
+    elif coding_percentage < 0.1:
+        return coding_percentage, 'non-coding'
+    else:
+        return coding_percentage, 'unclear'
+#For example
+sequence = 'atgatgttttgggagctgtgatgcgatgtgatgaacgttgatgctgaagtcagtga'
+coding_percentage, label = protein_coding(sequence)
+print(f"Coding percentage: {coding_percentage * 100:.2f}%, Label: {label}")
+        return coding_percentage, 'protein-coding'
+    elif coding_percentage < 0.1:
+        return coding_percentage, 'non-coding'
+    else:
+        return coding_percentage, 'unclear'
+#For example
+sequence = 'atgatgttttgggagctgtgatgcgatgtgatgaacgttgatgctgaagtcagtga'
+coding_percentage, label = protein_coding(sequence)
+print(f"Coding percentage: {coding_percentage * 100:.2f}%, Label: {label}")
