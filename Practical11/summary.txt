@@ -1,0 +1,26 @@
+
+Findings:
+
+Cat and human:
+
+Alignment score: 3717
+Percentage of identical amino acids: 85%
+Cat and mouse:
+
+Alignment score: 3592
+Percentage of identical amino acids: 82%
+Human and mouse:
+
+Alignment score: 3579
+Percentage of identical amino acids: 82%
+Interpretations:
+
+Based on the alignment scores and percentages of identical amino acids, we can infer the following relationships:
+
+Cat and human: The ACE2 gene sequences in cats and humans exhibit the highest alignment score and percentage of identical amino acids. This indicates a close evolutionary relationship between cats and humans in terms of the ACE2 protein.
+
+Mouse and human: The ACE2 gene sequences in mice and humans show similar alignment scores and percentages of identical amino acids. This suggests a relatively close evolutionary relationship between mice and humans in terms of the ACE2 protein, although slightly less closely related compared to cats and humans.
+
+Considering the evolutionary tree, it can be inferred that the ACE2 protein in mice diverged from the common ancestor of cats and humans first. Subsequently, the ACE2 proteins in cats and humans followed separate evolutionary paths.
+
+However, it is important to note that these conclusions are based on the analysis of a single protein and the similarity of protein sequences may not fully reflect overall evolutionary relationships. Additional analyses and consideration of other factors are necessary to draw comprehensive conclusions about the evolutionary history of these species.
