@@ -20,7 +20,7 @@ def read_sequence_from_file(filename):
     return sequence
 
 # Read BLOSUM matrix
-matrix = pd.read_excel("BLOSUM.xlsx", index_col="First")
+matrix = pd.read_excel("'BLOSUM (1).xlsx'", index_col="First")
 
 # Read sequences from files
 human_sequence = read_sequence_from_file('ACE2_human.fa')
