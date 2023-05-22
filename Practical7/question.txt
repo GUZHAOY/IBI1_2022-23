@@ -1,3 +1,6 @@
-Plot a boxplot of total case numbers in different countries on 31 March 2020.
-The question is addressed in 63 line.
-As can be seen from the boxplot, the cumulative number of confirmed cases by that date varies widely between countries, with some countries having very high numbers of cases and others having low numbers. This may be due to differences in epidemic prevention and control measures, medical resources, population density and public health levels in different countries. On the whole, the result is in line with expectations.
+Question: Will the total death rate of COVID-19 drop in China overtime?
+Answer:line 63-74
+I expected the rate to decrease slowly, however it was rising. This might be due to some inaccurate data
+at the beginning of the pandemic. By that time, many officers tended to hide the real deaths and cases.
+So the data was not completely correct. Also, it can be because COVID-19 death rate was not changing 
+dramatically at first since the virus was not evolving so fast.
